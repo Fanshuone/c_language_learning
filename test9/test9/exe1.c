@@ -237,6 +237,9 @@ int main()
 
 	printf("%d\n", sizeof(arr1) / sizeof(arr1[0])); // 行数
 	printf("%d\n", sizeof(arr1[0]) / sizeof(arr1[0][0])); // 列数
+	printf("------------------------------------------");
+	printf("");
+	printf(" \n");
 
 	return 0;
 }

@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+
+#include "game.h"
 void menu()
 {
 	printf("*********************************\n");
@@ -7,13 +8,52 @@ void menu()
 	printf("*********************************\n");
 }
 
-void   game()
+void game()
 {
-
+	char ret = 0;
+	char board[ROW][COL] = { 0 };
+	// ≥ı ºªØ∆Â≈Ãµƒ∫Ø ˝
+	IniBoard(board, ROW, COL);
+	DisplayBoard(board, ROW, COL);
+	//œ¬∆Â
+	while (1)
+	{
+		PlayerMove(board, ROW, COL);
+		DisplayBoard(board, ROW, COL);
+		ret = IsWIn(board, ROW, COL);
+		if (ret != 'C')
+		{
+			break;
+		}
+		// ≈–∂œ ‰”Æ
+		IsWIn(board, ROW, COL);
+		ComputerMove(board, ROW, COL);
+		DisplayBoard(board, ROW, COL);
+		//≈–∂œ ‰”Æ
+		ret = IsWIn(board, ROW, COL);
+		if (ret != 'C')
+		{
+			break;
+		}
+		
+	}
+	if (ret = '#')
+	{
+		printf("ÕÊº“”Æ\n");
+	}
+	else if (ret == '*')
+	{
+		printf("µÁƒ‘”Æ\n");
+	}
+	else
+	{
+		printf("∆Ωæ÷\n");
+	}
+	DisplayBoard(board, ROW, COL);
 }
-
 int main()
 {
+	srand((unsigned int)time(NULL));
 	int input = 0;
 	do
 	{
@@ -39,3 +79,14 @@ int main()
 	return 0;
 	
 }
+
+//int main()
+//{
+//	char arr1[10] = { 'a',0};
+//	printf("%p\n", arr1);
+//	printf("%p\n", &arr1[0]);
+//	printf("%p\n", arr1 + 1);
+//	printf("%c", arr1[1]);
+//	printf("%c", arr1[0]);
+//	return 0;
+//}
