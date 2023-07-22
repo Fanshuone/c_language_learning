@@ -1,0 +1,8 @@
+﻿  exe1.c
+D:\code\2023\C_language1\test15 结构体\test15 结构体\exe1.c(48,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\code\2023\C_language1\test15 结构体\test15 结构体\exe1.c(48,9): message : 请考虑在格式字符串中使用“%zu”
+D:\code\2023\C_language1\test15 结构体\test15 结构体\exe1.c(49,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\code\2023\C_language1\test15 结构体\test15 结构体\exe1.c(49,9): message : 请考虑在格式字符串中使用“%zu”
+D:\code\2023\C_language1\test15 结构体\test15 结构体\exe1.c(50,9): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\code\2023\C_language1\test15 结构体\test15 结构体\exe1.c(50,9): message : 请考虑在格式字符串中使用“%zu”
+  test15 结构体.vcxproj -> D:\code\2023\C_language1\test15 结构体\x64\Debug\test15 结构体.exe

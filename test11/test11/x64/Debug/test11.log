@@ -1,0 +1,6 @@
+﻿  exe.c
+D:\code\2023\C_language1\test11\test11\exe.c(76,13): warning C4047: “=”:“int *”与“int”的间接级别不同
+D:\code\2023\C_language1\test11\test11\exe.c(79,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int *”
+D:\code\2023\C_language1\test11\test11\exe.c(80,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int *”
+D:\code\2023\C_language1\test11\test11\exe.c(81,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int *”
+  test11.vcxproj -> D:\code\2023\C_language1\test11\x64\Debug\test11.exe

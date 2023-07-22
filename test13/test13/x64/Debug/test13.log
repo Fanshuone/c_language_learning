@@ -1,0 +1,5 @@
+﻿  exe.c
+D:\code\2023\C_language1\test13\test13\exe.c(17,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\code\2023\C_language1\test13\test13\exe.c(19,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\code\2023\C_language1\test13\test13\exe.c(11): warning C4172: 返回局部变量或临时变量的地址: aa
+  test13.vcxproj -> D:\code\2023\C_language1\test13\x64\Debug\test13.exe
