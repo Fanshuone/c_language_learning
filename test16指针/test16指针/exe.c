@@ -1,14 +1,27 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
-void test3(int** arr)
+//void test3(int** arr)
+//{
+//	for (int i = 0; i < 3; i++)
+//	{
+//		for (int j = 0; j < 4; j++)
+//		{
+//			//printf("%d ", arr[i][j]);
+//			printf("%d ", *(*(arr + i)+j));
+//		}
+//		printf("\n");
+//	}
+//}
+
+void test3(int* arr[])
 {
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 4; j++)
 		{
 			//printf("%d ", arr[i][j]);
-			printf("%d ", *(*(arr + i)+j));
+			printf("%d ", *(*(arr + i) + j));
 		}
 		printf("\n");
 	}
@@ -39,7 +52,9 @@ void test1(int** arr)
 	int i = 0;
 	for (i = 0; i < 3; i++)
 	{
+		printf("\n");
 		printf("%d ", *arr[i]);
+		printf("%d ", **(arr+i));
 	}
 	printf("\n");
 }
@@ -92,6 +107,9 @@ int main()
 	len = my_strlen("asfaf");
 	printf("len = % d\n", len);
 
+
+    //  ppb 是一个二级指针变量
+	//  int* 是说明 ppb 指向的是 int* 类型， 后面的 * 表示它是指针
 	int b = 2;
 	int* pb = &b;
 	int** ppb = &pb;

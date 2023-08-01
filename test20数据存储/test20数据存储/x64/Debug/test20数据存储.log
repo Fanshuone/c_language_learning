@@ -1,0 +1,8 @@
+﻿  exe1.c
+D:\code\2023\C_language1\test20数据存储\test20数据存储\exe1.c(23,6): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\code\2023\C_language1\test20数据存储\test20数据存储\exe1.c(27,8): error C2371: “d”: 重定义；不同的基类型
+D:\code\2023\C_language1\test20数据存储\test20数据存储\exe1.c(15,7): message : 参见“d”的声明
+D:\code\2023\C_language1\test20数据存储\test20数据存储\exe1.c(28,8): error C2371: “e”: 重定义；不同的基类型
+D:\code\2023\C_language1\test20数据存储\test20数据存储\exe1.c(16,15): message : 参见“e”的声明
+D:\code\2023\C_language1\test20数据存储\test20数据存储\exe1.c(29,8): error C2371: “f”: 重定义；不同的基类型
+D:\code\2023\C_language1\test20数据存储\test20数据存储\exe1.c(19,6): message : 参见“f”的声明

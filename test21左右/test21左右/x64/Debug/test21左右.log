@@ -1,0 +1,7 @@
+﻿C:\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(test21左右.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  exe.c
+D:\code\2023\C_language1\test21左右\test21左右\exe.c(37,12): warning C4013: “strlen”未定义；假设外部返回 int
+D:\code\2023\C_language1\test21左右\test21左右\exe.c(90,2): warning C4013: “gets”未定义；假设外部返回 int
+D:\code\2023\C_language1\test21左右\test21左右\exe.c(123,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“void *”
+D:\code\2023\C_language1\test21左右\test21左右\exe.c(123,9): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "void *" 的参数 1 冲突
+  test21左右.vcxproj -> D:\code\2023\C_language1\test21左右\x64\Debug\test21作业.exe
