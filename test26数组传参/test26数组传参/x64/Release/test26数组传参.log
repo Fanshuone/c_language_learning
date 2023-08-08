@@ -1,0 +1,7 @@
+﻿  exe1.c
+D:\code\2023\C_language1\test26数组传参\test26数组传参\exe1.c(32,7): warning C4048: “int (*)[5]”和“int (*)[3][5]”数组的下标不同
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  test26数组传参.vcxproj -> D:\code\2023\C_language1\test26数组传参\x64\Release\test26数组传参.exe

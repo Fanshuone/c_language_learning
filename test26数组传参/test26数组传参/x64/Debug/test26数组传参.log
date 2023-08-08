@@ -1,0 +1,7 @@
+﻿  exe1.c
+D:\code\2023\C_language1\test26数组传参\test26数组传参\exe1.c(58,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\code\2023\C_language1\test26数组传参\test26数组传参\exe1.c(58,9): message : 请考虑在格式字符串中使用“%zd”
+D:\code\2023\C_language1\test26数组传参\test26数组传参\exe1.c(60,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\code\2023\C_language1\test26数组传参\test26数组传参\exe1.c(60,9): message : 请考虑在格式字符串中使用“%zd”
+D:\code\2023\C_language1\test26数组传参\test26数组传参\exe1.c(41,7): warning C4048: “int (*)[5]”和“int (*)[3][5]”数组的下标不同
+  test26数组传参.vcxproj -> D:\code\2023\C_language1\test26数组传参\x64\Debug\test26数组传参.exe

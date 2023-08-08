@@ -1,3 +1,4 @@
 ﻿  exe1.c
 D:\code\2023\C_language1\test24数据存储2\test24数据存储2\exe1.c(19,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+D:\code\2023\C_language1\test24数据存储2\test24数据存储2\exe1.c(25,19): warning C4018: “>”: 有符号/无符号不匹配
   test24数据存储2.vcxproj -> D:\code\2023\C_language1\test24数据存储2\x64\Debug\test24数据存储2.exe

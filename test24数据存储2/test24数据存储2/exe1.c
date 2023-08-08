@@ -19,5 +19,14 @@ int main()
 	printf("%d\n", g);
 	printf("%f\n",*&g);
 
+	int h = -10;
+	unsigned int i = 100;
+	unsigned int j = 200;
+	printf("%d\n", h > i);
+	printf("%d\n", i-j > 0);
+
+	float k = 5.5f;
+	printf("%f\n", k);
+
 	return 0;
 }
