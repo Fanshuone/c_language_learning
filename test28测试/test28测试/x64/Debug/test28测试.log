@@ -1,5 +1,5 @@
 ﻿  exe1.c
 D:\code\2023\C_language1\test28测试\test28测试\exe1.c(81,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
 D:\code\2023\C_language1\test28测试\test28测试\exe1.c(81,9): message : 请考虑在格式字符串中使用“%zd”
-D:\code\2023\C_language1\test28测试\test28测试\exe1.c(106,10): warning C4048: “void (__cdecl *(*)[0])()”和“void (__cdecl *(*)[4])()”数组的下标不同
+D:\code\2023\C_language1\test28测试\test28测试\exe1.c(112,7): warning C4048: “int (*)[0]”和“int (*)[4]”数组的下标不同
   test28测试.vcxproj -> D:\code\2023\C_language1\test28测试\x64\Debug\test28测试.exe

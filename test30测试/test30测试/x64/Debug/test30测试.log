@@ -1,0 +1,4 @@
+﻿  exe01.c
+D:\code\2023\C_language1\test30测试\test30测试\exe01.c(21,7): warning C4133: “函数”: 从“int *”到“char *”的类型不兼容
+D:\code\2023\C_language1\test30测试\test30测试\exe01.c(22,24): warning C4047: “=”:“char *”与“__int64”的间接级别不同
+  test30测试.vcxproj -> D:\code\2023\C_language1\test30测试\x64\Debug\test30测试.exe

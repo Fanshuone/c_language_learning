@@ -1,0 +1,6 @@
+﻿  exe1.c
+D:\code\2023\C_language1\test29冒泡排序\test29冒泡排序\exe1.c(88,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\code\2023\C_language1\test29冒泡排序\test29冒泡排序\exe1.c(91,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\code\2023\C_language1\test29冒泡排序\test29冒泡排序\exe1.c(98,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\code\2023\C_language1\test29冒泡排序\test29冒泡排序\exe1.c(68): warning C4716: “cmp_by_name”: 必须返回一个值
+  test29冒泡排序.vcxproj -> D:\code\2023\C_language1\test29冒泡排序\x64\Debug\test29冒泡排序.exe

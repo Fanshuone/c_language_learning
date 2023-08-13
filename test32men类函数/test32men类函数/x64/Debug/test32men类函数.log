@@ -1,0 +1,4 @@
+﻿  exe1.c
+D:\code\2023\C_language1\test32men类函数\test32men类函数\exe1.c(25,12): warning C4133: “函数”: 从“int [10]”到“char *”的类型不兼容
+D:\code\2023\C_language1\test32men类函数\test32men类函数\exe1.c(25,18): warning C4133: “函数”: 从“int [9]”到“char *”的类型不兼容
+  test32men类函数.vcxproj -> D:\code\2023\C_language1\test32men类函数\x64\Debug\test32men类函数.exe
